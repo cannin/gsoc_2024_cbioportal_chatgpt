@@ -21,10 +21,11 @@ This chatbot provides answers about documentation on how data was generated, pro
 * Tell me about the TCGA breast cancer dataset? 
 
 # Knowledge
-* all.md: All Markdown files from cBioPortal documentation merged.
+* cbioportal_docs_merged.md: All Markdown files from cBioPortal documentation merged.
 
 ```
-cat *.md > all.md
+# Using content from https://github.com/cBioPortal/cbioportal 
+find cbioportal -type f -name '*.md' -exec cat {} + > cbioportal_docs_merged.md
 ```
 
 # Capabilities 
