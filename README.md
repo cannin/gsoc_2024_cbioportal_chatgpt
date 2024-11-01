@@ -34,6 +34,8 @@ find cbioportal -type f -name '*.md' -exec cat {} + > cbioportal_docs_merged.md
 - [ ] Code Interpreter & Data Analysis
 
 # Actions 
+This uses the https://www.openapis.org/ standard.
+
 Site: cbioportal.org
 
 ```
